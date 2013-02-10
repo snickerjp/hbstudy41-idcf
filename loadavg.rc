@@ -1,0 +1,2 @@
+check system loadavg
+    if loadavg (1min) > 2 then exec "/usr/bin/redis-cli -h %(redis_server)s rpush scale:%(scale_group)s:up %(host_name)s"
