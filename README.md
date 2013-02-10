@@ -4,16 +4,16 @@
 snicker_jpが使った、ファイルたちです。
 
 ## Contents
-* bin
- - scale.sh  
+* __bin__
+ - __scale.sh__  
  Redisに見に行って、一定間隔でScaleするSHELL
- - scale2.sh  
+ - __scale2.sh__  
  Redisに見に行って、一定間隔でScaleするSHELL その2
-* fabfile.py (main fabric resource)  
+* __fabfile.py__ (main fabric resource)  
 fabric のリソースファイルで色々書いてあるメインです
-* hello_py.cgi  
+* __hello_py.cgi__  
 ホスト名を表示する、cgiです
-* loadavg.rc    
+* __loadavg.rc__    
 monitの、LoadAverage 監視設定
 
 ## Other resource
