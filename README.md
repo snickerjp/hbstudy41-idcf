@@ -1,14 +1,20 @@
-# hbstudy #41 IDCF-Cloud を 自作auto-scaling した
+# hbstudy #41 IDCF-Cloud を 自作auto-scaling
 
+[hbstudy#41 x IDCFクラウドハンズオン](http://connpass.com/event/1658/)で
 snicker_jpが使った、ファイルたちです。
 
 ## Contents
 * bin
- - scale.sh
- - scale2.sh
-* fabfile.py (main fabric resource)
-* hello_py.cgi
-* loadavg.rc
+ - scale.sh  
+ Redisに見に行って、一定間隔でScaleするSHELL
+ - scale2.sh  
+ Redisに見に行って、一定間隔でScaleするSHELL その2
+* fabfile.py (main fabric resource)  
+fabric のリソースファイルで色々書いてあるメインです
+* hello_py.cgi  
+ホスト名を表示する、cgiです
+* loadavg.rc    
+monitの、LoadAverage 監視設定
 
 ## Other resource
 ### PDF Source
